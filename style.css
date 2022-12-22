@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Kumbh Sans');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    background-image: url('./images/bg-pattern-bottom.svg');
+    background-color:  hsl(185, 75%, 39%);
+}
+.conatiner{
+    display: block;
+    position: relative;
+    width:370px;
+    height:auto;
+    margin:150px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+.image{
+    position: inherit;
+    width:100%;
+    height:140px;
+    background-image: url('./images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+}
+.avatar{
+    display: inline;
+    position: absolute;
+    top:55%;
+    left: calc(100% - 65%);
+    width:30%;
+    height:80%;
+    background-color: white;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.avatar img{
+    position: inherit;
+    top:5%;
+    left:5%;
+    width:90%;
+    height: 90%;
+    border-radius: 100px;
+}
+.content{
+    text-align: center;
+    padding:0px 2px;
+}
+.content h2{
+    padding-top:60px;
+}
+.content span{
+    font-weight:lighter;
+    color:  hsl(0, 0%, 59%);
+}
+.content p{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color:  hsl(0, 0%, 59%);
+    border-bottom: 0.5px solid rgba(210, 210, 210, 0.645);
+}
+.bottom{
+    display: inline-block;
+    margin:20px 15px;
+    
+}
+.item{
+    float: left;
+    padding-left: 30px;
+    padding-right: 35px;
+    /* border:1px solid black; */
+    text-align: center;
+    line-height: 2.5ex;
+
+}
+.item .bold{
+    font-size: 20px;
+    font-weight:700;
+    color:  hsl(229, 23%, 23%);
+}
+.item p{
+    color:  hsl(0, 0%, 59%);
+    font-size: 10px;
+    font-weight: 400;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display:table;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:375px) {
+    .conatiner{
+        width: 90vw;
+    }
+    .avatar {
+        width:33%;
+    }
+    .item{
+        padding-right: 25px;
+    }
+}
+@media (max-width:165px) {
+    .avatar {
+        width:33%;
+        height: 35%;
+        top:85%;
+    }
+}
