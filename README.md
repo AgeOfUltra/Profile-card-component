@@ -13,7 +13,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Overview
 This is a static page and challenge from frontend mentor
-I have solve this challenge with html and css grid 
+I have solve this challenge with html and css  
 ### The challenge
 
 - Build out the project to the designs provided
@@ -21,8 +21,8 @@ I have solve this challenge with html and css grid
 
 ## My process
 This Static page is started with html division.
-while doing i have made a plan that my page containes the one main container with one fraction in column
-and two unequal fractions in rows direction , first is for the background image and second as usual for text section
+while doing i have made a plan that my page containes the one main container with three sub divisions,
+first is for the background image and avatar , second  is for the middle section and third for the last row which contain another sub divisions with flex 
 along with this plan i have followed the style guide [Style-guide](#style-guide)
 
 
@@ -30,7 +30,7 @@ along with this plan i have followed the style guide [Style-guide](#style-guide)
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
+- CSS positioning and flex
 
 ### style-guide
 # Front-end Style Guide
